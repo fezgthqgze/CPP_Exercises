@@ -5,5 +5,5 @@
 TEST_CASE("Test 01 - "
           "La classe `Plush` est instanciable par defaut.")
 {
-    auto plush [[maybe_unused]] = Plush {};
+    auto plush [[maybe_unused]] = Plush{};
 }
